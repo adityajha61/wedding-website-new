@@ -2,7 +2,7 @@
 
 @media (min-width: 642px) {
     . {
-        background: url(../img/main.jpg) center center;
+        background: url(../img/main.png) center center;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -12,7 +12,7 @@
 }
 @media (max-width: 642px) {
     .hero {
-        background: url(../img/main-mobile.jpg) center center;
+        background: url(../img/main-mobile.png) center center;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
