@@ -23,7 +23,7 @@
 @media (min-width: 1025px) {
 .hero{
     min-height:750px;
-    background:url(../img/main.jpg) center center;
+    background:url(../img/main.png) center center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
