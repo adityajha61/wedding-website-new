@@ -662,7 +662,7 @@
         var eventDate  = new Date('2023-12-04');
 
         // Calculate the difference in seconds between the future and current date
-        var diff =  eventDate.getTime() / 1000 - currentDate.getTime() / 1000;
+        var diff =  eventDate.getTime() / 1000 - currentDate.getTime() / 1000 - 19800;
 
         // Instantiate a coutdown FlipClock
         clock = $('.clock').FlipClock(diff, {
