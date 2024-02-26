@@ -12,7 +12,7 @@
 }
 @media (max-width: 642px) {
     .hero {
-        background: url(../img/main-mobile.png) center center;
+        background: url(../img/main-mpbile.png) center center;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -23,7 +23,7 @@
 @media (min-width: 1025px) {
 .hero{
     min-height:750px;
-    background:url(../img/main.png) center center;
+    background:url(../img/mainnew.png) center center;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
@@ -158,4 +158,16 @@
     padding: 10px 0px 0px 0px;
     margin: 10px 0px 0px 0px;
     height: 350px;
+}
+#myBtn {
+  top: 10%;
+  right: 3%;
+  position: fixed;
+  z-index: 50;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #D3D3D3;
+  color: #000;
+  border-radius: 5px;
+  display: inline-block;
 }
