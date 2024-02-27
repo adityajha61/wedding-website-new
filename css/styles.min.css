@@ -159,14 +159,15 @@
     margin: 10px 0px 0px 0px;
     height: 350px;
 }
+
 #myBtn {
   top: 10%;
-  right: 3%;
+  right: 30%;
   z-index: 50;
   cursor: pointer;
   padding: 10px 20px;
-  background: #D3D3D3;
+  background: white;
   color: #000;
-  border-radius: 5px;
+  border-radius: 20px;
   display: inline-block;
 }
