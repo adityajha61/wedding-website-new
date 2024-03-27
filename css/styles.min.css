@@ -58,7 +58,7 @@
         border-radius:50%;
         border:#CCCCCC thin solid;
         margin-bottom:1%;
-        opacity: 0.9;
+        opacity: 1;
     }
     .hero-content img:scroll
         {
