@@ -683,6 +683,19 @@
     });
 </script>
 <script>
+    $(window).scroll(function() {
+    var scrollTop = $(this).scrollTop();
+
+        $('.hero-content').css({
+        opacity: function() {
+            var elementHeight = $(this).height(),
+            opacity = 1 - ((elementHeight - scrollTop) / elementHeight);
+            return opacity+0.1;
+        }
+    });
+});
+</script>
+<script>
     function toggleMuted() {
         var myAudio = document.getElementById('ladkiwale_audio');
         myAudio.muted = !myAudio.muted;
